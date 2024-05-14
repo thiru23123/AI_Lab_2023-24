@@ -1,10 +1,11 @@
-# Ex.No: 10 Learning – Use Supervised Learning  
-### DATE:20.04.2024                                                                            
-### REGISTER NUMBER :212221060284 
+# Ex.No: 13 Learning – Use Supervised Learning  
+### DATE:   22.04.2024                                                                         
+### REGISTER NUMBER : 212221060116
+
 ### AIM: 
-To write a program to train the classifier for -----------------.
+    To write a program to train the classifier for Diabetes Prediction. 
 ###  Algorithm:
-1.Start the program.
+    1.Start the program.
     
     2.Import required Python libraries, including NumPy, Pandas, Google Colab, Gradio, and various scikit-learn modules.
     
@@ -27,10 +28,10 @@ To write a program to train the classifier for -----------------.
     11.Launch the Gradio web application, enabling sharing, to allow users to input their data and get predictions regarding diabetes risk.
     
     12.Stop the program.
-
+    
 ### Program:
 ```
-import packages
+    #import packages
     import numpy as np
     import pandas as pd
     
@@ -96,14 +97,12 @@ import packages
     app = gr.Interface(fn=diabetes, inputs=['number','number','number','number','number','number','number','number'], outputs=outputs,description="Detection of Diabeties")
     app.launch(share=True)
 ```
-
-### Output
-
-
-
-
+### Output:
+![image](https://github.com/AKASHBKUMAR/AI_Lab_2023-24/assets/113763258/246bfeb9-0039-404a-ad50-1e533322b61f)
+![image](https://github.com/AKASHBKUMAR/AI_Lab_2023-24/assets/113763258/40ccd967-174a-4e48-ade1-791d8f5ddf63)
+![image](https://github.com/AKASHBKUMAR/AI_Lab_2023-24/assets/113763258/361414a1-d8fa-4fe0-a7b7-6cfc96201742)
 
 
 
 ### Result:
-Thus the system was trained successfully and the prediction was carried out.
+    Thus the system was trained successfully and the prediction was carried out.
