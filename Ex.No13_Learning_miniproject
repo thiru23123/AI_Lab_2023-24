@@ -1,6 +1,6 @@
 # Ex.No: 10 Learning – Use Supervised Learning  
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:20.04.2024                                                                            
+### REGISTER NUMBER :212221060284 
 ### AIM: 
 To write a program to train the classifier for -----------------.
 ###  Algorithm:
@@ -97,8 +97,7 @@ import packages
     app.launch(share=True)
 ```
 
-### Output:
-
+### Output
 
 
 
